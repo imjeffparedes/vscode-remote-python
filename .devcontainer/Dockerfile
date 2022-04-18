@@ -5,3 +5,9 @@ FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 ENV PYTHONUNBUFFERED 1
 
 RUN apt-get -qq update && apt-get install -qq -y git curl bash zip && apt-get install -qq -y build-essential
+
+COPY requirements-dev.txt ./
+RUN pip install -r requirements-dev.txt
+
+COPY src/requirements.txt ./src/requirements.txt
+RUN pip install --user -r src/requirements.txt

@@ -1,0 +1,30 @@
+boto3==1.20.31
+#  usage: AWS SDK
+#  repo: https://github.com/boto/boto3
+#  license: Apache-2.0 - <repo>/blob/develop/LICENSE
+#  docs: https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
+
+requests==2.27.1
+#  usage: HTTP Library
+#  repo: https://github.com/psf/requests
+#  license: Apache-2.0 License
+#  docs: https://docs.python-requests.org/en/master/
+
+marshmallow==3.14.1
+#  usage: schema definitions
+#  repo: https://github.com/marshmallow-code/marshmallow
+#  license: MIT - <repo>/blob/master/LICENSE
+#  docs: https://marshmallow.readthedocs.io
+
+pyotp==2.6.0
+# usage: OTP generation
+# repo: https://github.com/pyauth/pyotp
+# license: https://github.com/jpf/pyotp/blob/master/LICENSE
+# docs: https://pyauth.github.io/pyotp/
+
+cachetools==5.0.0
+# usage: for caching entries for faster retrival
+# repo: https://github.com/tkem/cachetools
+# license: https://raw.githubusercontent.com/tkem/cachetools/master/LICENSE
+# docs: https://cachetools.readthedocs.io/en/stable/
+
